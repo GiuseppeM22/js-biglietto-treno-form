@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>biglietto treno</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <div class="whiteContainer">
+            <div class="info">
+                <h5>Nome Cognome</h5>
+                <input type="text" placeholder="inserisci il tuo nome">
+            </div>
+            <div class="info">
+                <h5>Km da percorrere</h5>
+                <input type="text" placeholder="inserisci i km">
+            </div>
+            <div class="info">
+                <h5>Fascia di età</h5>
+                <select name="age" id="age">
+                    <option value="minorenne">Minorenne</option>
+                    <option value="maggiorenne">Maggiorenne</option>
+                    <option value="over65">Over 65</option>
+                </select>
+            </div>
+        </div>
+        <div class="inputTag">
+            <button>Genera</button>
+            <button>Annulla</button>
+        </div>
+        <h2>IL TUO BIGLIETTO</h2>
+        <div class="whiteContainer second">
+            <h3>DETTAGLI PASSEGGERO</h3>
+            <div class="ticket">
+                <div class="passenger">
+                    <h4>NOME PASSEGGERO</h4>
+                    <p id="PassangerName"></p>
+                </div>
+                <div class="off">
+                    <h5>Offerta</h5>
+                    <p id="sale"></p>
+                </div>
+                <div class="carr">
+                    <h5>Carrozza</h5>
+                    <p> 5</p>
+                </div>
+                <div class="Code">
+                    <h5>Codice CP</h5>
+                    <p>023750</p>
+                </div>
+                <div class="priceTicket">
+                    <h5>Costo biglietto</h5>
+                    <p id="price"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

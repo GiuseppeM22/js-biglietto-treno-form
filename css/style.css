@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+
+}
+
+h1, h2{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+}
+
+.info input{
+    width: 200px;
+    height: 30px;
+}
+
+.info h5{
+    font-size: 20px;
+}
+
+.whiteContainer{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.inputTag{
+    background-color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.inputTag button{
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.inputTag button:active{
+    color: white;
+    background-color: brown;
+}
+
+.second{
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.ticket{
+    display: flex;
+    justify-content: space-between;
+}
