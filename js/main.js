@@ -1,4 +1,5 @@
 let btn = document.getElementById("done");
+let annulla = document.getElementById ("reset")
 btn.addEventListener("click",
     
     function () {
@@ -38,3 +39,20 @@ btn.addEventListener("click",
          
 
     })
+
+    //evento al click per annullare
+
+    annulla.addEventListener("click", 
+        
+        function(){
+            document.getElementById("passengerName").value = " ";
+            document.getElementById("chilometri").value = " ";
+
+            document.getElementById("passenger").innerText = " ";
+            document.getElementById("sale").innerText = " ";
+            document.getElementById("price").innerText = " ";
+
+        
+
+
+        })
